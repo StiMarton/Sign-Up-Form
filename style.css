@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+aside {
+    background-image: url(img/navid-sohrabi-8viXaXtlWSg-unsplash.jpg);
+    background-position: 100%;
+    width: 33%;
+}
+
+aside, #logo_container {
+    position: relative;
+}
+aside, img {
+    height: 100px;
+}
+
+aside, h1 {
+    color: red;
+}
+main {
+}

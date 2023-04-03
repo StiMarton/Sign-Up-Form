@@ -8,6 +8,67 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <aside>
+        <div id="logo_container">
+            <img src="img/odin-lined.png" alt="Odin logo">
+            <h1>ODIN</h1>
+        </div>
+    </aside>
+
+    <main>
+        <div id="intro">
+            <p class="introtext" id="bigtext">This is not a real service! But I need to practice making online forms, and you need to help me with this task.
+                Sign up <em>now</em> to get started.
+            </p>
+            <p class="introtext" id="smalltext">You <em>know</em> what to do.</p>
+        </div>
+
+        <form>
+            <h2>Create your account</h2>
+            <section id="account_info">
+                <p>
+                    <label for="first_name">
+                        <span>First name</span>
+                        <strong><span aria-label="required">*</span></strong>
+                    </label>
+                    <input type="text" id="first_name" name="first_name" />
+                </p>
+                <p>
+                    <label for="last_name">
+                        <span>Last name</span>
+                        <strong><span aria-label="required">*</span></strong>
+                    </label>
+                    <input type="text" id="last_name" name="user_name" />
+                </p>
+                <p>
+                    <label for="mail">
+                        <span>Email</span>
+                        <strong><span aria-label="required">*</span></strong>
+                    </label>
+                    <input type="email" id="mail" name="mail" />
+                </p>
+                <p>
+                    <label for="pwd1">
+                        <span>Password</span>
+                        <strong><span aria-label="required">*</span></strong>
+                    </label>
+                    <input type="password" name="pwd1" id="password1" />
+                 </p>
+                 <p>
+                    <label for="pwd2">
+                        <span>Confirm Password</span>
+                        <strong><span aria-label="required">*</span></strong>
+                    </label>
+                    <input type="password" name="pwd2" id="password2" />
+                 </p>
+            </section>
+            <section id="submit_btn">
+                <p>
+                    <button type="submit">Create account</button>
+                </p>
+                <p>Already have an account? <a href="...">Log in</a></p>
+            </section>
+        </form>
+    </main>
 </body>
 </html>
