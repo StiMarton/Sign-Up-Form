@@ -20,8 +20,6 @@ main {
     display: flex;
     flex-direction: column;
 
-    padding-left: 25px;
-
 }
 
 
@@ -48,8 +46,28 @@ form {
 
 #account_info {
     display: flex;
+    flex-wrap: wrap;
+}
+
+#account_info p {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    flex: 50%;
+}
+
+input {
+    width: 250px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+
+    color: white;
+    font-weight: bold;
+    background-color: #5f4e3a;
+    
 }
 
 /* ODIN BANNER */
